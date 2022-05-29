@@ -9,7 +9,7 @@ import winsound
 ctypes.windll.shcore.SetProcessDpiAwareness(True)
 
 root = Tk()
-root.config(bg="Salmon")
+root.config(bg="Royal Blue")
 root.geometry('600x500')
 root.title("Pomodoro Timer")
 root.resizable(0, 0)
@@ -155,7 +155,6 @@ date_label = Label(root, text="Datetime:",
 date_label.pack(side=BOTTOM)
 
 
-# Instruction Label
 instruction_label = Label(
     root,
     text='''
